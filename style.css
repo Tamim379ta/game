@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, nav {
+    height: 100%;
+    margin: 0;
+    background-color: aliceblue;
+}
+  
+.navbar{
+    background-color: aliceblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-bar {
+    display: inline-block;
+}
+
+.menu-bar button {
+    padding: 15px 15px;
+    background-color: bisque;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.menu-bar:hover button {
+    background-color: rgb(204, 197, 117);
+}
+
+.menu-bar a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: black; 
+}
+
+.menu-bar .option {
+    display: none;
+    background-color: bisque;
+    border-radius: 8px;
+    margin-top: 2px;
+    padding: 4px;
+}
+
+.menu-bar:hover .option {
+    display: block;
+    position: absolute;
+}
+.menu-bar a:hover {
+    background-color: rgb(204, 197, 117);
+    border-radius: 5px;
+}
+
+.navbar .logo {
+    display: flex;
+    font-size: 25px;
+}
+.navbar img {
+    width: 50px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+.banner {
+    background-color:rgb(226, 232, 237);
+}
+html, .banner {
+    height: 100%;
+    margin: 0;
+    background-color:rgb(226, 232, 237) ;
+}
+
+.banner1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner img {
+    width: 500px;
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .banner img {
+        width: 350px;
+        
+    }
+}
+
+@media (max-width:400px) {
+    .banner1{
+        flex-direction: column;
+    }
+    
+}
+
+.banner a {
+    color: black;
+    display: block;
+    flex-direction: column;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+.banner h1 {
+    font-weight: 500px;
+    padding-top: 50px;
+    font-size: 32px;
+}
+.banner h2 {
+    font-size: 60px;
+    padding-left: 15px;
+    font-weight: 600px;
+    
+}
+
+.banner .banner-text {
+    padding-left: 10px;
+    padding-top: 30px;
+}
+@media (max-width: 400px) {
+    .banner.banner-text {
+        display: block;
+    }
+    
+}
+
+aside {
+    width: 100%;
+    float: left;
+}
+
+section button {
+    margin-top: 25px;
+    padding: 15px 15px;
+    border: none;
+    background-color: rgb(122, 122, 206);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+section button:hover {
+    background-color: rgb(143, 177, 177);
+    transition: 0.5s;
+
+}
