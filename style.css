@@ -4,17 +4,18 @@
     box-sizing: border-box;
 }
 
-html, nav {
-    height: 100%;
-    margin: 0;
-    background-color: aliceblue;
-}
   
 .navbar{
-    background-color: aliceblue;
+    background-color: rgb(171, 205, 235);
     padding: 20px;
     display: flex;
     justify-content: space-between;
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        min-width: 100vh;
+    }
 }
 
 .menu-bar {
@@ -69,12 +70,12 @@ html, nav {
 }
 
 .banner {
-    background-color:rgb(226, 232, 237);
+    background-color:#FCF6FD;
 }
 html, .banner {
     height: 100%;
     margin: 0;
-    background-color:rgb(226, 232, 237) ;
+    background-color:#FCF6FD;
 }
 
 .banner1 {
@@ -90,13 +91,14 @@ html, .banner {
 @media (max-width: 768px) {
     .banner img {
         width: 350px;
+        display: block;
         
     }
 }
 
-@media (max-width:400px) {
+@media (max-width:480px) {
     .banner1{
-        flex-direction: column;
+     flex-direction: column;
     }
     
 }
@@ -125,7 +127,7 @@ html, .banner {
     padding-left: 10px;
     padding-top: 30px;
 }
-@media (max-width: 400px) {
+@media (max-width: 480px) {
     .banner.banner-text {
         display: block;
     }
@@ -151,3 +153,66 @@ section button:hover {
     transition: 0.5s;
 
 }
+html, .sec-2nd{
+    height: 100%;
+    margin: 0;
+}
+
+.sec-2nd {
+    display: flex;
+    justify-content: space-around;
+    
+}
+@media (max-width:480px) {
+    .sec-2nd {
+        display: block;
+    }
+    
+}
+.sec-2nd .sec-2nd-text {
+    width: 100%;
+}
+
+.sec-2nd img {
+    width: 600px;
+    margin-left: 20px;
+    float: left;
+}
+@media (max-width:768px) {
+    .sec-2nd img {
+        width: 400px;
+    }   
+}
+@media (max-width:480px) {
+    .sec-2nd img {
+      
+       display: block;
+    }   
+}
+
+.sec-2nd {
+    margin: 20px;
+}
+.sec-2nd h1 {
+    font-size: 38px;
+    color: rgb(77, 87, 84);
+}
+
+.sec-2nd p {
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.sec-2nd button {
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(122, 122, 206);
+    margin: 15px;
+    cursor: pointer;
+}
+.sec-2nd button:hover {
+    background-color:  rgb(143, 177, 177) ;
+    transition: 0.5s;
+}
+
