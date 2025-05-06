@@ -11,13 +11,6 @@
     display: flex;
     justify-content: space-between;
 }
-
-@media (max-width: 480px) {
-    .navbar {
-        min-width: 100vh;
-    }
-}
-
 .menu-bar {
     display: inline-block;
 }
