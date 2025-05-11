@@ -254,16 +254,16 @@ html, .sec-2nd{
 @media (max-width: 768px) {
   .game-video {
     flex-wrap: wrap;
-    gap: 16px; /* slightly smaller gap for smaller screen */
+    gap: 16px;
   }
 
   .game-video-img {
-    max-width: 48%; /* 2 items per row */
+    max-width: 48%;
     flex: 1 1 48%;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 480px) {
   .game-video-img {
     max-width: 100%;
     flex: 1 1 100%;
