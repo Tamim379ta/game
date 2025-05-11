@@ -271,16 +271,21 @@ html, .sec-2nd{
 }
 
 
+
 .ph-frem {
     position: relative;
 
 }
 
 .ph-detail {
-    position: absolute;
-    display: none;
-    top: 0;
-    margin: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Perfect center */
+  display:  none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .ph-frem img {
     width: 250px;
