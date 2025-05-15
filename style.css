@@ -191,7 +191,7 @@ html, .sec-2nd{
 @media (max-width:768px) {
     .sec-2nd img {
         width: 380px;
-    }   
+    }  
 }
 @media (max-width:480px) {
     .sec-2nd img {
@@ -487,7 +487,7 @@ html, .sec-2nd{
 
 .sec-6th button:hover {
     border-color: red;
-    background: rgb(194, 218, 255);
+    background: #fff;
 }
 
 @media (max-width: 768px) {
@@ -498,9 +498,103 @@ html, .sec-2nd{
 
   .first-part button,
   .secend-part button {
-    width: 45%; /* Makes 2 buttons fit in one row */
+    width: 45%;
     justify-content: center;
   }
 }
 
 
+footer {
+    background-color: black;
+    margin-top: 20px;
+
+}
+.logo-last {
+    padding-top: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+
+}
+.logo-last span {
+    color: #fff;
+    font-size: 26px;
+}
+.logo-last img {
+    width: 60px;
+}
+
+footer .ul-1st {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 20px;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.social-part  {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.social-part .fa-brands.fa-facebook , .fa-brands.fa-instagram ,.fa-brands.fa-twitter ,.fa-brands.fa-linkedin ,.fa-brands.fa-youtube{
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+footer .ul-2nd {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+footer .ul-2nd a {
+    color: #7b7a79;
+}
+
+footer p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: aqua;
+    text-align: center;
+    font-size: 10px;
+}
+
+@media (max-width:768px) {
+      footer a {
+        font-size: 15px;
+    }
+    footer .ul-1st {
+        display: flex;
+        gap: 10;
+    }
+    footer .ul-2nd a {
+        gap: 20px;
+    }
+    .social-part .fa-brands.fa-facebook , .fa-brands.fa-instagram ,.fa-brands.fa-twitter ,.fa-brands.fa-linkedin ,.fa-brands.fa-youtube {
+        font-size: 30px;
+    }
+    
+}
+
+@media (max-width:480px) {
+      footer a {
+        font-size: 15px;
+    }
+    footer .ul-1st {
+        gap: 15px;
+    }
+    footer .ul-2nd{
+        gap: 15px;
+    }
+    .social-part .fa-brands.fa-facebook , .fa-brands.fa-instagram ,.fa-brands.fa-twitter ,.fa-brands.fa-linkedin ,.fa-brands.fa-youtube {
+        font-size: 30px;
+    }
+    
+}
