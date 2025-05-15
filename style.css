@@ -572,9 +572,6 @@ footer p {
     }
     footer .ul-1st {
         display: flex;
-        gap: 10;
-    }
-    footer .ul-2nd a {
         gap: 20px;
     }
     .social-part .fa-brands.fa-facebook , .fa-brands.fa-instagram ,.fa-brands.fa-twitter ,.fa-brands.fa-linkedin ,.fa-brands.fa-youtube {
@@ -585,7 +582,7 @@ footer p {
 
 @media (max-width:480px) {
       footer a {
-        font-size: 15px;
+        font-size: 10px;
     }
     footer .ul-1st {
         gap: 15px;
